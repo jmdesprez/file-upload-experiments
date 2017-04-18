@@ -1,0 +1,16 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+
+swagger:
+  resourcePackage: jm.desprez.resources
+  host: localhost:8080
+
+logging:
+  level: TRACE
+
+rootPath: /home/jmdesprez/tmp/fileupload
